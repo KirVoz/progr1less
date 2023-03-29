@@ -20,17 +20,17 @@
 //if(dayNumber<=7 && dayNumber>=1)
 //{
 //    if(dayNumber==1)
-//    {
-//        Console.Write("понедельник");
-//    }
-//if(dayNumber==2)
-//    {
-//        Console.Write("вторник");
-//    }
-//if(dayNumber==3)
-//    {
-//        Console.Write("среда");
-//    }
+//       {
+//           Console.Write("понедельник");
+//       }
+//    if(dayNumber==2)
+//       {
+//           Console.Write("вторник");
+//       }
+//    if(dayNumber==3)
+//       {
+//         Console.Write("среда");
+//       }
 //}
 //else
 //{
