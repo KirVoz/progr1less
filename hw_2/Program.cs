@@ -16,11 +16,12 @@
 //     }
 
 
-// Console.WriteLine("Введите любое число: ");
-// string input = Convert.ToString(Console.ReadLine());
-// if (input.Lenght > 2)
+// Console.Write("Введите любое число: ");
+// int input1 = Convert.ToInt32(Console.ReadLine());
+// string input = Convert.ToString(input1);
+// if (input.Length > 2)
 // {
-//     Console.WriteLine("{0}->{1}", input, input[2]);
+//     Console.WriteLine("это третий символ->" + input[2]);
 // }
 // else
 // {
@@ -41,24 +42,26 @@
 // }
 
 
+
+
 // Программа принимает цифру, обозначающую день недели
 // и проверяет является ли этот день выходным.
 
-Console.Write("введите номер дня недели");
-int dayNumber = Convert.ToInt32(Console.ReadLine());
+// Console.Write("введите номер дня недели");
+// int dayNumber = Convert.ToInt32(Console.ReadLine());
 
-void dow(int dayNumber)
-{
-    if (dayNumber == 6 || dayNumber == 7)
-    {
-        Console.WriteLine("this is weekends -> yes");
-    }
-    else if (dayNumber < 1 || dayNumber > 7)
-    {
-        Console.WriteLine("heeeeeel nooo");
-    }
-    else Console.WriteLine("this is not weekend");
-}
+// void dow(int dayNumber)
+// {
+//     if (dayNumber == 6 || dayNumber == 7)
+//     {
+//         Console.WriteLine("this is weekends -> yes");
+//     }
+//     else if (dayNumber < 1 || dayNumber > 7)
+//     {
+//         Console.WriteLine("heeeeeel nooo");
+//     }
+//     else Console.WriteLine("this is not weekend");
+// }
 
-dow(dayNumber);
+// dow(dayNumber);
 
